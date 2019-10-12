@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nitin Chandran Nair | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+  <section class="hero is-large is-bold">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <strong>NN</strong>
+            </a>
+            <span class="navbar-burger burger" data-target="navMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navMenu" class="navbar-menu">
+            <ul class="navbar-end">
+              <li class="navbar-item">
+                <a href="#about">About</a>
+              </li>
+              <!--
+              <li class="navbar-item">
+                <a href="#">Projects</a>
+              </li>
+              -->
+              <li class="navbar-item">
+                <a href="https://www.nitinnairwrites.com" title="NitinNairWrites">Blog</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#about">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <figure class="image is-128x128" style="margin:0 auto">
+        	<img class="is-rounded" src="https://avatars0.githubusercontent.com/u/16149618?s=400&u=c3b17d93249783bac20baa0f2b65e90d68c8c112&v=4" alt="Nitin Nair" title="Hi! I am Nitin" />
+            </figure>
+        <h1 class="title is-size-1-desktop">Nitin Chandran Nair</h1>
+        <h2 class="subtitle">UI developer, Author, Writer</h2>
+        <!--
+        <div class="field is-grouped-centered">
+          <button class="button is-info" title="View Nitin's projects">Projects</button>
+          <button class="button is-info" title="View Nitin's resume">Resume</button>
+        </div>
+        -->
+      </div>
+    </div>
+  </section>
+  <section class="section has-background-white-ter" id="about">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+        <div class="content">
+            <h5 class="subtitle">ABOUT</h5>
+            <p>Nitin holds a masters degree from BITS Pilani in Software Engineering and currently works as a Front-End UI developer. He is passionate about coding, writing and blogging.</p>
+          </div>
+        </div>
+        <div class="column">
+        <div class="content">
+            <h5 class="subtitle">CONTACT</h5>
+            <form action="mailto:nitin.dreamern89@gmail.com">
+                <div class="field">
+                    <div class="control has-icons-left">
+                        <input class="input" type="text" placeholder="What's your name?">
+                        <span class="icon is-small is-left"><i class="fas fa-user"></i></span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="control has-icons-left">
+                        <input class="input" type="email" placeholder="What's your email address?">
+                        <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
+                    </div>
+                  </div>
+                  <div class="field"><button type="submit" class="button is-info" title="Get in touch with Nitin">Contact Nitin</button></div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer has-background-white-ter has-text-grey" style="padding-bottom:1.5rem">
+    <div class="content has-text-centered">
+      <p>
+        <span class="icon"><i class="fas fa-sm fa-code"></i></span> by <a href="https://github.com/NitinNair89" title="NitinNair on GitHub">Nitin Nair</a>
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function() {
+    $(".navbar-burger").click(function() {
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+    });
+  });
+  </script>
+</body>
+</html>
