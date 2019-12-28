@@ -1,112 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nitin Chandran Nair | Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <style>html{scroll-behavior:smooth}</style>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  <link href="/css/animate.css" rel="stylesheet">
 </head>
-<body>
-  <section class="hero is-medium is-bold">
-    <div class="hero-head">
-      <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item">
-              <strong>NN</strong>
-            </a>
-            <span class="navbar-burger burger" data-target="navMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navMenu" class="navbar-menu">
-            <ul class="navbar-end">
-              <li class="navbar-item">
-                <a href="#about">About</a>
-              </li>
-              <!--
-              <li class="navbar-item">
-                <a href="#">Projects</a>
-              </li>
-              -->
-              <li class="navbar-item">
-                <a href="https://www.nitinnairwrites.com" title="NitinNairWrites">Blog</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#about">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<body class="theme-txt">
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-none fixed-top">
+    <a href="#main" title="Skip to main content" class="sr-only">Skip to main content</a>
+    <a class="navbar-brand theme-txt" href="#" title="Nitin Chandran Nair" aria-label="Nitin Chandran Nair">Nitin Chandran Nair.</a>
+    <button class="navbar-toggler primary-color" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto black-text">
+        <!-- <li class="nav-item">
+          <a class="nav-link black-text" href="#projects">Projects</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link black-text" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link black-text" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <figure class="image is-128x128" style="margin:0 auto">
-        	<img class="is-rounded" src="https://avatars0.githubusercontent.com/u/16149618?s=400&u=c3b17d93249783bac20baa0f2b65e90d68c8c112&v=4" alt="Nitin Nair" title="Hi! I am Nitin" />
+  </nav>
+
+  <main id="main">
+    <section id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col col-sm-8">
+            <hgroup>
+              <h1 class="animated fadeInUp">Poet.</h1>
+              <h1 class="animated fadeInUp delay-1s">Author.</h1>
+              <h1 class="animated fadeInUp delay-2s">UI Developer.</h1>
+            </hgroup>
+            <!-- <div id="button-group" class="animated fadeIn delay-3s">
+              <button type="button" title="View resume" aria-label="View resume" class="btn btn-lg btn-primary waves-effect waves-light font-weight-bolder">Resume</button>
+              <button type="button" title="Hire Nitin" aria-label="Hire Nitin" class="btn btn-lg btn-secondary waves-effect waves-light font-weight-bolder">Hire</button>
+            </div> -->
+          </div>
+          <div class="col col-sm-4 text-center">
+            <figure>
+              <img class="img-thumbnail rounded-circle z-depth-1" src="https://avatars0.githubusercontent.com/u/16149618?s=400&u=c3b17d93249783bac20baa0f2b65e90d68c8c112&v=4" alt="Nitin Nair" title="Hi! I am Nitin" />
             </figure>
-        <h1 class="title is-size-1-desktop">Nitin Chandran Nair</h1>
-        <h2 class="subtitle">UI developer, Author, Writer</h2>
-        <!--
-        <div class="field is-grouped-centered">
-          <button class="button is-info" title="View Nitin's projects">Projects</button>
-          <button class="button is-info" title="View Nitin's resume">Resume</button>
-        </div>
-        -->
-      </div>
-    </div>
-  </section>
-  <section class="section has-background-white-ter" id="about">
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-        <div class="content">
-            <h5 class="subtitle">ABOUT</h5>
-            <p>Nitin holds a masters degree from BITS Pilani in Software Engineering and currently works as a Front-End UI developer. He is passionate about coding, writing and blogging.</p>
-          </div>
-        </div>
-        <div class="column">
-        <div class="content">
-            <h5 class="subtitle">CONTACT</h5>
-            <form action="mailto:nitin.dreamern89@gmail.com">
-                <div class="field">
-                    <div class="control has-icons-left">
-                        <input class="input" type="text" placeholder="What's your name?">
-                        <span class="icon is-small is-left"><i class="fas fa-user"></i></span>
-                    </div>
-                  </div>
-                  <div class="field">
-                    <div class="control has-icons-left">
-                        <input class="input" type="email" placeholder="What's your email address?">
-                        <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
-                    </div>
-                  </div>
-                  <div class="field"><button type="submit" class="button is-info" title="Get in touch with Nitin">Contact Nitin</button></div>
-              </form>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <footer class="footer has-background-white-ter has-text-grey" style="padding-bottom:1.5rem">
-    <div class="content has-text-centered">
-      <p>
-        <span class="icon"><i class="fas fa-sm fa-code"></i></span> by <a href="https://github.com/NitinNair89" title="NitinNair on GitHub">Nitin Nair</a>
-      </p>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>
-  $(document).ready(function() {
-    $(".navbar-burger").click(function() {
-        $(".navbar-burger").toggleClass("is-active");
-        $(".navbar-menu").toggleClass("is-active");
-    });
-  });
-  </script>
+      <div class="arrow"><a href="#about" title="Scroll to About section" aria-label="Scroll to About section"><i aria-hidden="true" class="fas fa-angle-double-down theme-txt"></i></a></div>
+    </section>
+
+    <!-- <section id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col col-sm-8">
+            <hgroup>
+              <h1 class="animated fadeInUp">Poet.</h1>
+              <h1 class="animated fadeInUp delay-1s">Author.</h1>
+              <h1 class="animated fadeInUp delay-2s">UI Developer.</h1>
+            </hgroup>
+            <div id="button-group" class="animated fadeIn delay-3s">
+              <button type="button" title="View resume" aria-label="View resume" class="btn btn-lg btn-primary waves-effect waves-light font-weight-bolder">Resume</button>
+              <button type="button" title="Hire Nitin" aria-label="Hire Nitin" class="btn btn-lg btn-secondary waves-effect waves-light font-weight-bolder">Hire</button>
+            </div>
+          </div>
+          <div class="col col-sm-4 text-center">
+            <figure>
+              <img class="img-thumbnail rounded-circle z-depth-1" src="https://avatars0.githubusercontent.com/u/16149618?s=400&u=c3b17d93249783bac20baa0f2b65e90d68c8c112&v=4" alt="Nitin Nair" title="Hi! I am Nitin" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="arrow"><a href="#projects" title="Scroll to Projects section" aria-label="Scroll to Projects section"><i aria-hidden="true" class="fas fa-angle-double-down theme-txt"></i></a></div>
+    </section> -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col col-sm-12">
+              <h1>Hi! I am Nitin Nair. Nice to meet you! :)</h1>
+              <p>Nitin holds a masters degree from BITS Pilani in Software Engineering and currently works as a Front-End UI developer. He is passionate about coding, writing and blogging.</p>
+              <ul class="list-inline text-center list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg theme-txt-light" href="www.facebook.com/NitinNairWrites" target="_blank" aria-label="Visit Nitin's page on Facebook in a new window" title="Visit NitinNairWrites on Facebook">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg theme-txt-light" href="www.twitter.com/@Nitin_Nair89" target="_blank" aria-label="Open Nitin's Twitter profile in a new window" title="Visit Nitin's Twitter profile">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg theme-txt-light" href="www.nitinnairwrites.com" target="_blank" aria-label="Open Nitin's Blog in a new window" title="Visit NitinNairWrites">
+                    <i class="fab fa-wordpress" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg theme-txt-light" href="www.github.com/NitinNair89" target="_blank" aria-label="Open Nitin's Github profile in a new window" title="Visit Nitin's Github profile">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg theme-txt-light" href="http://codepen.io/Nitin-chandran-nair" target="_blank" aria-label="Open Nitin's Codepen profile in a new window" title="Visit Nitin's Codepen profile">
+                    <i class="fab fa-codepen" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="arrow"><a href="#contact" title="Scroll to Contact section" aria-label="Scroll to Contact section"><i aria-hidden="true" class="fas fa-angle-double-down theme-txt"></i></a></div>
+    </section>
+
+    <section id="contact" class="contact-section dark-grey-text pb-0">
+      <div class="card mt-5 w-75">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="card-body form">
+              <h3 class="font-weight-bold theme-txt mt-4"><i class="fas fa-envelope pr-2 mr-1"></i>Get in touch:</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="form-contact-name" class="form-control">
+                    <label for="form-contact-name" class="">Your name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="form-contact-email" class="form-control">
+                    <label for="form-contact-email" class="">Your email</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="form-contact-phone" class="form-control">
+                    <label for="form-contact-phone" class="">Your phone</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="form-contact-company" class="form-control">
+                    <label for="form-contact-company" class="">Your company</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <textarea id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
+                    <label for="form-contact-message">Your message</label>
+                    <a class="btn-floating btn-lg theme-bg">
+                      <i class="far fa-paper-plane"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-body text-center h-100 theme-bg theme-txt-light">
+              <h3 class="font-weight-bold my-4 pb-2">Contact information</h3>
+              <ul class="text-lg-left list-unstyled ml-4">
+                <li>
+                  <p><i class="fas fa-map-marker-alt pr-2"></i>Maharashtran, India</p>
+                </li>
+                <li>
+                  <p><i class="fas fa-envelope pr-2"></i>hello@nitinchandrannair.com</p>
+                </li>
+              </ul>
+              <hr class="hr-light my-4">
+              <ul class="list-inline text-center list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg theme-txt-light" href="www.facebook.com/NitinNairWrites" target="_blank" aria-label="Visit Nitin's page on Facebook in a new window" title="Visit NitinNairWrites on Facebook">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg theme-txt-light" href="www.twitter.com/@Nitin_Nair89" target="_blank" aria-label="Open Nitin's Twitter profile in a new window" title="Visit Nitin's profile on Twitter">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg theme-txt-light" href="www.nitinnairwrites.com" target="_blank" aria-label="Open Nitin's Blog in a new window" title="Visit NitinNairWrites">
+                    <i class="fab fa-wordpress" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
 </body>
 </html>
